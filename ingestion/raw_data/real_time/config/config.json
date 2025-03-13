@@ -1,6 +1,6 @@
 {
     "openweathermap": {
-        "api_key": "d8e254d1b90cccd66eaff7dd12ff6d63",
+        "api_key": "",
         "base_url": "http://api.openweathermap.org/data/2.5/air_pollution"
     },
     "aws": {
