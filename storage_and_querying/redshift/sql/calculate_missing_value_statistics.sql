@@ -1,0 +1,34 @@
+SELECT
+        'CO' AS pollutant, COUNT(*) AS total_records,
+        SUM(CASE WHEN CO IS NULL THEN 1 ELSE 0 END) AS missing_records,
+        ROUND(100.0 * SUM(CASE WHEN CO IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2) AS missing_percentage
+    FROM unified_air_quality
+    UNION ALL
+    SELECT 'SO2', COUNT(*), SUM(CASE WHEN SO2 IS NULL THEN 1 ELSE 0 END),
+        ROUND(100.0 * SUM(CASE WHEN SO2 IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2)
+    FROM unified_air_quality
+    UNION ALL
+    SELECT 'NO2', COUNT(*), SUM(CASE WHEN NO2 IS NULL THEN 1 ELSE 0 END),
+        ROUND(100.0 * SUM(CASE WHEN NO2 IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2)
+    FROM unified_air_quality
+    UNION ALL
+    SELECT 'O3', COUNT(*), SUM(CASE WHEN O3 IS NULL THEN 1 ELSE 0 END),
+        ROUND(100.0 * SUM(CASE WHEN O3 IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2)
+    FROM unified_air_quality
+    UNION ALL
+    SELECT 'PM10', COUNT(*), SUM(CASE WHEN PM10 IS NULL THEN 1 ELSE 0 END),
+        ROUND(100.0 * SUM(CASE WHEN PM10 IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2)
+    FROM unified_air_quality
+    UNION ALL
+    SELECT 'NO', COUNT(*), SUM(CASE WHEN NO IS NULL THEN 1 ELSE 0 END),
+        ROUND(100.0 * SUM(CASE WHEN NO IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2)
+    FROM unified_air_quality
+    UNION ALL
+    SELECT 'PM2_5', COUNT(*), SUM(CASE WHEN PM2_5 IS NULL THEN 1 ELSE 0 END),
+        ROUND(100.0 * SUM(CASE WHEN PM2_5 IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2)
+    FROM unified_air_quality
+    UNION ALL
+    SELECT 'NH3', COUNT(*), SUM(CASE WHEN NH3 IS NULL THEN 1 ELSE 0 END),
+        ROUND(100.0 * SUM(CASE WHEN NH3 IS NULL THEN 1 ELSE 0 END) / COUNT(*), 2)
+    FROM unified_air_quality
+    ORDER BY missing_percentage DESC;

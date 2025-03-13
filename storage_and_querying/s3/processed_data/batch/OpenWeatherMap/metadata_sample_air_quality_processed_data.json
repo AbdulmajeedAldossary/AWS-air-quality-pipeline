@@ -1,0 +1,315 @@
+[
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "longitude",
+
+        "repetition": "Required",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "latitude",
+
+        "repetition": "Required",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "aqi",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Int32"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "co",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "no",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "no2",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "o3",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "so2",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "pm2_5",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "pm10",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "nh3",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Double"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "timestamp",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Int32"
+
+    }
+
+  },
+
+  {
+
+    "PrimitiveType": {
+
+      "field_info": {
+
+        "name": "date",
+
+        "repetition": "Optional",
+
+        "id": null
+
+      },
+
+      "logical_type": null,
+
+      "converted_type": null,
+
+      "physical_type": "Int96"
+
+    }
+
+  }
+
+]

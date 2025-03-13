@@ -1,0 +1,12 @@
+ {
+    "date": "2020-05-26",
+    "city": "Riyadh",
+    "station": "Al-Khalidiya",
+    "component": "O3",
+    "value": 32.3,
+    "unit": "ppb",
+    "indicator": "Max / Hourly",
+    "periodicity": "Daily",
+    "quarter": null
+
+ }

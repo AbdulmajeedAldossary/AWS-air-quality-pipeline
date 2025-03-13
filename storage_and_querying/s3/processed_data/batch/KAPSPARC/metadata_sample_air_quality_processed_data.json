@@ -1,0 +1,243 @@
+[
+
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "date",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": "String",
+ 
+       "converted_type": "Utf8",
+ 
+       "physical_type": "ByteArray"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "unit",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": "String",
+ 
+       "converted_type": "Utf8",
+ 
+       "physical_type": "ByteArray"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "indicator",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": "String",
+ 
+       "converted_type": "Utf8",
+ 
+       "physical_type": "ByteArray"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "periodicity",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": "String",
+ 
+       "converted_type": "Utf8",
+ 
+       "physical_type": "ByteArray"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "quarter",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": "String",
+ 
+       "converted_type": "Utf8",
+ 
+       "physical_type": "ByteArray"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "CO",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": null,
+ 
+       "converted_type": null,
+ 
+       "physical_type": "Double"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "SO2",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": null,
+ 
+       "converted_type": null,
+ 
+       "physical_type": "Double"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "NO2",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": null,
+ 
+       "converted_type": null,
+ 
+       "physical_type": "Double"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "O3",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": null,
+ 
+       "converted_type": null,
+ 
+       "physical_type": "Double"
+ 
+     }
+ 
+   },
+ 
+   {
+ 
+     "PrimitiveType": {
+ 
+       "field_info": {
+ 
+         "name": "PM10",
+ 
+         "repetition": "Optional",
+ 
+         "id": null
+ 
+       },
+ 
+       "logical_type": null,
+ 
+       "converted_type": null,
+ 
+       "physical_type": "Double"
+ 
+     }
+ 
+   }
+ 
+ ]
